@@ -14,3 +14,23 @@ def calc(a,b,c):
 
 Selama testing ternyata jika value a b atau c adalah 0 maka akan terjadi error DIV/0!.
 Error yang dimaksud seperti ini [Error](https://stackoverflow.com/questions/38125319/python-divide-by-zero-encountered-in-log-logistic-regression)
+
+# Testing `main.py`
+## main.py
+17 Mei 2025
+### Testing kode berjalan normal
+Menjalankan fungsi-fungsi pada file main.py
+
+Selama testing ditemukan error 
+```
+Hello Worl
+Traceback (most recent call last):
+  File "D:\latihangithub\testing\src\main.py", line 12, in <module>
+    main()
+  File "D:\latihangithub\testing\src\main.py", line 5, in main
+    repeat(vals)
+NameError: name 'vals' is not defined. Did you mean: 'vars'?
+```
+variabel vals tidak ditemukan
+
+
